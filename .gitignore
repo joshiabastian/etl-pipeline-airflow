@@ -1,2 +1,42 @@
-venv/
+# Python
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+*.pid
+airflow/
+
+# Docker
+docker-compose.override.yml
+.docker/
+tmp/
+Dockerfile.airflow
+
+# Postgres (local data volume)
+pgdata/
+*.sql
+*.dump
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
